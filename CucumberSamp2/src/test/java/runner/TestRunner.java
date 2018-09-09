@@ -11,7 +11,9 @@ features = "src/test/java/feature/test.feature"
 ,glue= {"seleniumgluecode"},
 
 //plugin = {"pretty", "html:target/htmlreports"},
-plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}, 
+plugin = { "pretty",
+		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/richexten.html",
+		"html:target/htmlreport/test.html","json:target/cucumber-reportst/5.json"}, 
 monochrome = true
         )
 
