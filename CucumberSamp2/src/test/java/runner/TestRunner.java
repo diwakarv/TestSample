@@ -13,7 +13,7 @@ features = "src/test/java/feature/test.feature"
 //plugin = {"pretty", "html:target/htmlreports"},
 plugin = { "pretty",
 		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/richexten.html",
-		"html:target/htmlreport/test.html","json:target/cucumber-reportst/5.json"}, 
+		"html:target/htmlreport/test.html","json:target/cucumber-reportst/9.json"}, 
 monochrome = true
         )
 
